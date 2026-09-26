@@ -1,0 +1,26 @@
+{
+  "name": "query-seal",
+  "version": "1.0.0",
+  "description": "Encrypt and decrypt JSON data into URL-safe tokens using AES-256-GCM",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "query",
+    "url",
+    "encryption",
+    "crypto",
+    "aes",
+    "aes-256-gcm",
+    "typescript"
+  ],
+  "license": "MIT"
+}
